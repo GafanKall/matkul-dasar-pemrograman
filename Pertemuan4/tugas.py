@@ -1,6 +1,9 @@
 # Tugas 1, PT. DINGIN DAMAI (Study Case)
 
 gaji_pokok = 300000
+tunjangan_jabatan = 0
+tunjangan_pendidikan = 0
+honor = 0
 
 # Input data karyawan
 nama_karyawan = input("Masukkan nama karyawan : ")
@@ -24,7 +27,7 @@ if pendidikan == "S1" :
 elif pendidikan == "D3" :
     tunjangan_pendidikan = 0.20 * gaji_pokok
 elif pendidikan == "D1" :
-    tunjangan_pendidikan = 0.15 * gaji_pokok
+    tunjangan_pendidikan = 0.05 * gaji_pokok
 elif pendidikan == "SMA" :
     tunjangan_pendidikan = 0.025 * gaji_pokok
 else :
